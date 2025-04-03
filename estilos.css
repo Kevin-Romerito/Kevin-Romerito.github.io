@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2749a7;
+    text-align: center;
+}
+
+.cabeza {
+    width: 90%;
+    margin: auto;
+    background: rgb(220, 219, 221);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3c3c6e;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar {
+    background-color: #3c3c6e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.css {
+    padding: 20px;
+    background-color: hsl(278, 86%, 86%);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.css img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    object-fit: contain;
+}
+
+.javascript {
+    padding: 20px;
+    background-color: hsl(278, 86%, 86%);
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabla {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 20px; /* Tamaño de fuente principal */
+}
+
+table, th, td {
+    border: 1px solid #6a0dad;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #6a0dad;
+    color: white;
+}
+
+/* Ajusta el tamaño de las imágenes dentro de la tabla */
+table img {
+    max-width: 100px; /* Puedes ajustar este valor según el tamaño que necesites */
+    height: auto;    /* Mantiene la proporción original */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #a04949;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; 
+    font-size: 14px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container nav ul {
+        display: flex; /* Usa flexbox para organizar los elementos */
+        flex-direction: column; /* Acomoda los elementos en columna */
+        align-items: center; /* Centra los elementos en la pantalla */
+    }
+    
+    .container table {
+        font-size: 12px; /* Reduce el tamaño de fuente en pantallas pequeñas */
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Estilos para una posible tabla dentro de un contenedor específico */
+.table-container table {
+    width: 100%; /* Hace que se ajuste al contenedor */
+    /* Ajusta max-width según lo que necesites, por ejemplo, 100% o un valor fijo */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Evita deformaciones */
+    font-size: 16px;
+    border-radius: 5px;
+    display: table;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: 1;
+    opacity: 1;
+    margin: 20px auto;
+    padding: 10px;
+}
