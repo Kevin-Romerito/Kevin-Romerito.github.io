@@ -71,12 +71,12 @@ body {
     margin-top: 20px;
 }
 
-/* Estilos para la tabla */
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin: auto;
-    font-size: 20px; /* Tamaño de fuente principal */
+    font-size: 20px; 
 }
 
 table, th, td {
@@ -93,13 +93,13 @@ th {
     color: white;
 }
 
-/* Ajusta el tamaño de las imágenes dentro de la tabla */
+
 table img {
-    max-width: 100px; /* Puedes ajustar este valor según el tamaño que necesites */
-    height: auto;    /* Mantiene la proporción original */
+    max-width: 100px; 
+    height: auto;    
 }
 
-/* Estilos para el footer */
+
 footer {
     background-color: #a04949;
     text-align: center;
@@ -108,16 +108,16 @@ footer {
     font-size: 14px;
 }
 
-/* Media Query para pantallas pequeñas */
+
 @media (max-width: 600px) {
     .container nav ul {
-        display: flex; /* Usa flexbox para organizar los elementos */
-        flex-direction: column; /* Acomoda los elementos en columna */
-        align-items: center; /* Centra los elementos en la pantalla */
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
     }
     
     .container table {
-        font-size: 12px; /* Reduce el tamaño de fuente en pantallas pequeñas */
+        font-size: 12px; 
     }
     
     .container {
@@ -130,12 +130,11 @@ footer {
     }
 }
 
-/* Estilos para una posible tabla dentro de un contenedor específico */
+
 .table-container table {
-    width: 100%; /* Hace que se ajuste al contenedor */
-    /* Ajusta max-width según lo que necesites, por ejemplo, 100% o un valor fijo */
-    height: auto; /* Mantiene la proporción */
-    object-fit: contain; /* Evita deformaciones */
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
     font-size: 16px;
     border-radius: 5px;
     display: table;
